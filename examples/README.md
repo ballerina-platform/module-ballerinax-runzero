@@ -2,13 +2,16 @@
 
 The `ballerinax/runzero` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+1. [Site asset inventory](./site_asset_inventory/site_asset_inventory.md) - List the live assets discovered in a site.
+2. [Explorer task monitoring](./explorer_task_monitoring/explorer_task_monitoring.md) - Check explorer connectivity and review tasks by status.
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+Create a `Config.toml` file in the example directory with a runZero organization API key (starts with `OT`), along with any other values the example documents. Both examples call organization operations, so an export token (`ET`) does not work:
+
+```toml
+apiToken = "<Organization API key>"
+```
 
 ## Running an example
 
